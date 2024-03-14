@@ -14,9 +14,9 @@
 
         <link rel="stylesheet" href="code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css"/>
 
-        <!-- <link rel="stylesheet" href="themes/mytheme.min.css" />
+        <link rel="stylesheet" href="themes/myTheme.min.css" />
 
-        <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" /> -->
+        <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
     </head>
 
     <body>
@@ -29,6 +29,7 @@
                     <ul>
                         <a href="#home">Home</a>
                         <a href="#contactus">Contact Us</a>
+                        <a href="#management">Management</a>
                     </ul>
                 </div>
 
@@ -56,8 +57,23 @@
 
         </div>
 
-        <div class="parent">
-            
+        <!-- Management -->
+        <div class="pg" data-role="page" id="management">
+            <header data-role="header">
+                <h1>Vecta</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#contactus">Contact Us</a></li>
+                        <li><a href="#management">Management</a></li>
+                    </ul>
+                </div>
+            </header>
+
+            <section class="ui-content" role="main">
+                <h4>This is management page</h4>
+            </section>
+            <footer data-role="footer"><h4>&copy; 2023</h4></footer>
         </div>
     </body>
 </html>
